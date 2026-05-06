@@ -30,7 +30,7 @@ public class App {
                         System.out.println();
 
                         insertion.sort(arreglo, Boolean.parseBoolean(opInsercion));
-                        System.out.println("\n--------------------------------------------------\n");
+                        System.out.println("\n------------------------------------------------------\n");
                         shell.sort(arreglo, Boolean.parseBoolean(opShell));
                     } else {
                         System.out.println("Error: Entrada inválida. Debe escribir 'true' o 'false'.");
